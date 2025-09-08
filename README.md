@@ -1,5 +1,10 @@
 # Monitor AKS (MERN)
 
+<img width="2558" height="1265" alt="Screenshot 2025-09-08 114727" src="https://github.com/user-attachments/assets/333efb5a-ce56-4d3c-ab61-e02ee9da555f" />
+<img width="2557" height="1271" alt="Screenshot 2025-09-08 114739" src="https://github.com/user-attachments/assets/685f8498-a043-4313-af78-4e0620167a68" />
+
+
+
 A MERN stack application to authenticate with Azure using a service principal and view AKS cluster health (clusters, nodes, pods, deployments).
 
 ## Features (current)
@@ -50,3 +55,5 @@ AZURE_SUBSCRIPTION_ID=...
 
 ## License
 MIT (add file separately if needed)
+
+
