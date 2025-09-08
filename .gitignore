@@ -1,0 +1,107 @@
+# ---- Node.js dependencies ----
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# ---- Build outputs / bundles ----
+**/dist/
+**/build/
+**/out/
+**/.next/
+**/.nuxt/
+**/.svelte-kit/
+**/.parcel-cache/
+**/.rollup.cache/
+**/.webpack-cache/
+**/.vite/
+**/.turbo/
+**/.cache/
+
+# ---- Coverage / reports ----
+coverage/
+**/coverage/
+reports/
+
+# ---- Logs & debug ----
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Environment & secrets ----
+.env
+.env.*
+!.env.example
+*.local
+
+# ---- OS / Editor junk ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# JetBrains
+.idea/
+
+# ---- Temporary files ----
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+# ---- TypeScript ----
+*.tsbuildinfo
+
+# ---- Lockfiles (uncomment if you prefer a single canonical one) ----
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
+
+# ---- Misc caches ----
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnpm-store/
+
+# ---- OneDrive sync conflict artifacts ----
+* (Conflicted copy *.*/
+* (Conflicted copy *).*
+~$*
+
+# ---- Local tools ----
+.eslintcache
+.stylelintcache
+.turbo/
+
+# ---- Optional: ignore snapshots (if you regenerate often) ----
+# **/__snapshots__/
+
+# ---- Binary assets you don't want in git ----
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.exe
+*.dll
+*.bin
+
+# ---- Server specific ----
+**/tmp/
+**/logs/
+
+# ---- Ignore yarn modern install artifacts ----
+.pnp.*
+
+# End of .gitignore
